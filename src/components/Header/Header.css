@@ -1,0 +1,56 @@
+.app__header {
+  position: relative;
+}
+
+.app__header-img {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.app__header-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 78px;
+}
+
+.app__title {
+  width: 680px;
+  height: 30px;
+  color: hsl(0, 0%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.title {
+  letter-spacing: 17px;
+}
+
+.image {
+  height: 26px;
+  width: 26px;
+  transition: all 0.2s ease-in-out;
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.app__formInner {
+  width: 100%;
+  height: 100%;
+}
+
+.app__formInner > input::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+
+.app__submit {
+  display: none;
+}

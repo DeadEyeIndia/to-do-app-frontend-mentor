@@ -1,0 +1,31 @@
+.app__body-actions {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 0 14px;
+}
+
+.body-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-actions > p {
+  margin: 0 10px;
+}
+
+.active {
+  color: hsl(220, 98%, 61%);
+  font-weight: 700;
+}
+
+.app__addTodoBody {
+  width: 680px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
